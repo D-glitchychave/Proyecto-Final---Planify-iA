@@ -5,12 +5,12 @@
 <!-- LOGIN -->
 <section class="login-section">
     <div class="login-box text-center">
-        <h1>Planify iA</h1>
-        <h2 class="mb-3">Bienvenido</h2>
-        <form action="guardar.php" method="POST">
-            <input type="text" name="usuario" placeholder="Usuario..." required>
-            <input type="password" name="password" placeholder="Contraseña..." required>
-            <button type="submit">Iniciar sesión</button>
+        <h1>- Planify iA -</h1>
+        <h2 class="mb-3"><u>Bienvenid@</u></h2>
+        <form action="auth/login_process.php" method="POST">
+            <input class="login-input" type="text" name="usuario" placeholder="Usuario..." required>
+            <input class="login-input" type="password" name="password" placeholder="Contraseña..." required>
+            <button class="login-button" type="submit">Iniciar Sesión</button>
         </form>
     </div>
 </section>
