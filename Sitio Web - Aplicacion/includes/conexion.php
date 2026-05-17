@@ -1,13 +1,26 @@
 <?php
+
 $host = "fdb1032.awardspace.net";
-$dbname = "4736937_kinder";
-$user = "4736937_kinder";
-$pass = "ClaveKinder_0102";
+$db = "4736937_planifydb";
+$user = "4736937_planifydb";
+$pass = "V4U)fDTQ6e^bdA%Z";
 
 try {
-    $conexion = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
-    $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    $pdo = new PDO(
+        "mysql:host=$host;dbname=$db;charset=utf8",
+        $user,
+        $pass
+    );
+
+    $pdo->setAttribute(
+        PDO::ATTR_ERRMODE,
+        PDO::ERRMODE_EXCEPTION
+    );
+
 } catch(PDOException $e) {
+
     die("Error de conexión: " . $e->getMessage());
+
 }
 ?>
