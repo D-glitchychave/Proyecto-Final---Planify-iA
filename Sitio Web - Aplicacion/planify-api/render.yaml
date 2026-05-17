@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: planify-api
+    env: php
+    plan: free
