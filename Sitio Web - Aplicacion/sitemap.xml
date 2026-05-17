@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/index.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/login.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/registro.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/contacto.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/chat.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/dashboard.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/geolocalizacion.php
+        </loc>
+    </url>
+
+    <url>
+        <loc>
+            http://damianchavezproyectointegral.atwebpages.com/sitemap.php
+        </loc>
+    </url>
+</urlset>
