@@ -1,7 +1,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg bg navbar-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">🤖 Planify iA</a>
+        <a class="navbar-brand" href="index.php">🤖 Planify iA</a>
 
         <!-- BOTÓN HAMBURGUESA -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
