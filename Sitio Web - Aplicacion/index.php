@@ -3,13 +3,40 @@
 <?php include 'includes/navbar.php'; ?>
 
 <!-- HERO -->
-<section class="hero">
-    <div class="container">
-        <h1 class="display-4 fw-bold">- Planify iA -</h1>
-        <p class="lead mt-3">
-            Organiza tu vida académica, rutinas de estudio y ejercicio con ayuda de inteligencia artificial.
-        </p>
-        <a href="login.html" class="btn btn mt-4 px-4 py-2">Iniciar Sesión </a>
+<section class="hero-slider">
+    <!-- CARRUSEL -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg">
+                <div class="overlay">
+                    <h1>- Planify iA -</h1>
+                    <p>Organiza tu vida académica y personal con ayuda de inteligencia artificial.</p>
+                    <a href="login.php" class="btn btn-light px-4 py-2">Iniciar Sesión</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/19915766/pexels-photo-19915766.jpeg">
+                <div class="overlay">
+                    <h1>Rutinas Inteligentes</h1>
+                    <p>Genera planes personalizados de estudio, gym y productividad.</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/7668396/pexels-photo-7668396.jpeg">
+                <div class="overlay">
+                    <h1>Tu Asistente iA</h1>
+                    <p>La inteligencia artificial se adapta a tus horarios y metas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOTONES -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- PAGINACIÓN -->
+        <div class="swiper-pagination"></div>
     </div>
 </section>
 
@@ -42,6 +69,8 @@
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/js/carrusel.js"></script>
 </body>
 
 <?php include 'includes/footer.php'; ?>
