@@ -149,7 +149,7 @@ async function enviar(){
 
     try{
 
-        const res = await fetch("planify-api/api.php", {
+        const res = await fetch("https://planify-api-0f9z.onrender.com/api.php", {
 
             method: "POST",
 
