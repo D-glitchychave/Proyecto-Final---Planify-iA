@@ -29,7 +29,6 @@
         onclick="usarSugerencia('Consejos para dormir mejor')">
         😴 Mejorar sueño
     </button>
-
 </div>
 
 <!-- CHAT -->
