@@ -1,0 +1,3 @@
+Credenciales públicas para iniciar sesión:
+- Usuario: user
+- Contraseña: 123
